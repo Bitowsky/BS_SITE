@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'font';
+    src: url('fonts/pixel/font_pixel.woff');
+}
+
+body {
+    background-image: url('img/bsbg.png');
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.bslogo_title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+span {
+    font-family: 'chevyray_-_love_bugregular';
+    white-space: pre-wrap;
+}
+
+.title {
+    position: relative;
+    
+}
+
+.upper_title {
+    background: rgb(0,6,255);
+    background: linear-gradient(45deg, rgba(0,6,255,1) 0%, rgba(255,0,0,1) 100%);
+    /*margin:-10px;*/
+}
+
+.title_splashtext {
+    position: absolute;
+    top: 110px;
+    right: 20%;
+    rotate: -10deg;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 3px black;
+    animation: splash_text_an 0.58s infinite;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes splash_text_an {
+    from {
+        transform:scale(0.97)
+    }
+    50% {
+        transform:scale(1)
+    }
+    to {
+        transform:scale(0.97)
+    }
+}
+
+ul.up_bar {
+    /*
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #3100f4;
+    background-color: #2d4178;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-left: 0px;
+    */
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  }
+
+
+.bs_logo_up_bar_right {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #ff5c5c;
+  }
+
+/* FOOTER */
+
+.mainfooter {
+    background-color: #2d4178;
+    margin: 0;
+    width: 100%;
+}
+
+.social_icons {
+    width: 20%;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social_text {
+    text-align: center;
+    font-size: 24px; color: white; text-shadow: 0px 2px black;-webkit-text-stroke: 1px black;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

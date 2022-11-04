@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-16">
+        <link rel="stylesheet" href="fonts/standard/stylesheet.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- LANGUAGE FILES -->
+        <script src="language/en.js"></script>
+        <script src="language/es.js"></script>
+        <script src="language/pt.js"></script>
+        <script src="language/pl.js"></script>
+        <script src="language/ru.js"></script>
+
+
+        <link href="common_elements/footer.html" rel="import"/>
+
+
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        
+        <div class="upper_title">
+            <div class="title">
+                <br>
+                <img src="img/bitstudiologo.png" alt="Bit Studio Logo" class="bslogo_title"></img>
+                <div class="splash">
+                    <script>
+                        document.write("<div class='title_splashtext'><span class='lang-welcome_subtext" + Math.ceil(Math.random() * SplashScreenTextCount) + "'></span></div>")
+                    </script>
+                    
+                </div>
+            </div>
+            <br>
+            <br>
+            
+            <div style="text-align: center; font-size: 48px; color: white; text-shadow: 0px 5px black;-webkit-text-stroke: 2px black;"><span class="lang-welcome"></span></div>
+            <br>
+        </div>
+            <ul class="up_bar">
+                <li><a class="active" href="#news"><span class="lang-menubar1"></a></li>
+                    <li><a href="#contact"><span class="lang-menubar2"></a></li>
+                    <li><a href="#contact"><span class="lang-menubar3"></a></li>
+                <li><a href="#aboutus"><span class="lang-menubar4"></a></li>
+                    <div class="up_bar_right">
+                        <img src="img/bitstudiologo.png" alt="Bit Studio Logo" class="bs_logo_up_bar_right"></img>
+                    </div>
+            </ul>
+        
+            
+            <!--
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac aliquet leo. Nullam et nulla consequat ligula pulvinar sagittis ac eget ipsum. Vivamus quis augue sed nibh interdum varius at et elit. Vestibulum in metus ut orci egestas pellentesque. Ut id risus nisi. Morbi et nunc dignissim, facilisis tellus in, rhoncus arcu. Etiam aliquam vitae nibh eu iaculis. Vestibulum pellentesque purus quis tempor convallis.
+
+            Morbi finibus egestas lacinia. Quisque facilisis accumsan magna. Quisque sit amet erat ornare, efficitur urna placerat, consequat leo. Vivamus dui ex, tempus eget augue vel, ultricies tristique orci. In vestibulum lobortis ligula, eu luctus massa tristique quis. Nam gravida nunc lacus, vel auctor nunc commodo sed. Vivamus ut nisi libero. Mauris congue ante id nunc rhoncus pharetra. Proin bibendum purus et orci condimentum interdum. Nunc vulputate, urna eget maximus ornare, sem metus porta lorem, et accumsan nunc mauris eget lorem. Aenean at convallis elit. Proin quis est placerat, scelerisque nisi eget, vehicula diam. Cras est mi, vestibulum ac hendrerit in, ornare ut metus. Nulla facilisi. Nulla facilisi.
+            
+            Aenean aliquet metus id lectus tempus, eget tempor metus mollis. Ut sit amet pulvinar tortor. Vivamus elementum ex sit amet ligula lacinia rhoncus. Curabitur euismod eros in diam imperdiet, vitae cursus sem pulvinar. Phasellus tempor arcu vel nibh pharetra, nec eleifend lectus vulputate. Vivamus vehicula hendrerit tellus, nec feugiat nisi accumsan at. Sed dapibus odio velit. Donec ac pellentesque sem.
+            
+            Cras non lacinia sem. Morbi vehicula id massa vitae vestibulum. Duis et ultricies lorem. Vivamus blandit nec diam id vulputate. Morbi et ultrices libero, a gravida ante. Aliquam efficitur orci at est pharetra, eget hendrerit erat blandit. Nulla iaculis, nisi nec fermentum tempor, nunc nibh mattis lorem, id euismod nibh magna ac elit. Morbi purus lorem, hendrerit sit amet facilisis a, accumsan eu nunc. Duis in volutpat odio. Duis et neque lorem. Aliquam erat volutpat. Praesent rhoncus, nibh in semper laoreet, magna risus ullamcorper nunc, luctus suscipit ex tellus id nunc. Praesent et nibh non metus venenatis accumsan eget a orci. Aliquam sed lectus at urna commodo dignissim et eget nisi. Ut faucibus non nibh tincidunt pharetra.
+            
+            Sed tincidunt facilisis lectus nec cursus. Morbi tincidunt ex et commodo porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ac massa neque. Aliquam erat volutpat. Donec at dolor sed tellus vehicula tristique ut et erat. Duis faucibus, orci non viverra dignissim, felis risus euismod erat, ac sagittis neque velit at urna. In hac habitasse platea dictumst. In in ante lobortis, finibus lorem quis, faucibus ante. Sed feugiat, sapien eu elementum blandit, neque erat suscipit dui, sit amet rhoncus eros metus nec turpis. Suspendisse laoreet viverra tincidunt.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac aliquet leo. Nullam et nulla consequat ligula pulvinar sagittis ac eget ipsum. Vivamus quis augue sed nibh interdum varius at et elit. Vestibulum in metus ut orci egestas pellentesque. Ut id risus nisi. Morbi et nunc dignissim, facilisis tellus in, rhoncus arcu. Etiam aliquam vitae nibh eu iaculis. Vestibulum pellentesque purus quis tempor convallis.
+
+            Morbi finibus egestas lacinia. Quisque facilisis accumsan magna. Quisque sit amet erat ornare, efficitur urna placerat, consequat leo. Vivamus dui ex, tempus eget augue vel, ultricies tristique orci. In vestibulum lobortis ligula, eu luctus massa tristique quis. Nam gravida nunc lacus, vel auctor nunc commodo sed. Vivamus ut nisi libero. Mauris congue ante id nunc rhoncus pharetra. Proin bibendum purus et orci condimentum interdum. Nunc vulputate, urna eget maximus ornare, sem metus porta lorem, et accumsan nunc mauris eget lorem. Aenean at convallis elit. Proin quis est placerat, scelerisque nisi eget, vehicula diam. Cras est mi, vestibulum ac hendrerit in, ornare ut metus. Nulla facilisi. Nulla facilisi.
+            
+            Aenean aliquet metus id lectus tempus, eget tempor metus mollis. Ut sit amet pulvinar tortor. Vivamus elementum ex sit amet ligula lacinia rhoncus. Curabitur euismod eros in diam imperdiet, vitae cursus sem pulvinar. Phasellus tempor arcu vel nibh pharetra, nec eleifend lectus vulputate. Vivamus vehicula hendrerit tellus, nec feugiat nisi accumsan at. Sed dapibus odio velit. Donec ac pellentesque sem.
+            
+            Cras non lacinia sem. Morbi vehicula id massa vitae vestibulum. Duis et ultricies lorem. Vivamus blandit nec diam id vulputate. Morbi et ultrices libero, a gravida ante. Aliquam efficitur orci at est pharetra, eget hendrerit erat blandit. Nulla iaculis, nisi nec fermentum tempor, nunc nibh mattis lorem, id euismod nibh magna ac elit. Morbi purus lorem, hendrerit sit amet facilisis a, accumsan eu nunc. Duis in volutpat odio. Duis et neque lorem. Aliquam erat volutpat. Praesent rhoncus, nibh in semper laoreet, magna risus ullamcorper nunc, luctus suscipit ex tellus id nunc. Praesent et nibh non metus venenatis accumsan eget a orci. Aliquam sed lectus at urna commodo dignissim et eget nisi. Ut faucibus non nibh tincidunt pharetra.
+            
+            Sed tincidunt facilisis lectus nec cursus. Morbi tincidunt ex et commodo porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ac massa neque. Aliquam erat volutpat. Donec at dolor sed tellus vehicula tristique ut et erat. Duis faucibus, orci non viverra dignissim, felis risus euismod erat, ac sagittis neque velit at urna. In hac habitasse platea dictumst. In in ante lobortis, finibus lorem quis, faucibus ante. Sed feugiat, sapien eu elementum blandit, neque erat suscipit dui, sit amet rhoncus eros metus nec turpis. Suspendisse laoreet viverra tincidunt.</span>
+        -->
+            <br>
+        <br>
+        <br>
+        <select id="country_select" onchange="loadsLanguage(this.value);">
+        </select>
+        <br>
+        <br>
+        <br>
+        
+        <p id="demo"></p>
+
+        <script src="articles_list.js"></script>
+
+        <div class="mainfooter"><script src="common_elements/footer.js"></script></div>
+
+    </body>
+</html>

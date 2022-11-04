@@ -1,0 +1,2 @@
+
+document.write("<br><div class='social_text'><span class='lang-socialmedia_text'></span></div><div class='social_icons'><!-- TWITTER --> <a href='https://twitter.com/BitStudio3'><img src='img/social/twitter.svg' width='50px'></a> <!-- YOUTUBE --> <a href='https://www.youtube.com/channel/UCWjo2Zc-f5Lc0E-CF8p0l3Q'><img src='img/social/youtube.svg' width='50px'></a> <!-- DISCORD --> <a href='https://discord.gg/6fthehQqX7'><img src='img/social/discord.svg' width='50px'></a></div><br>")
